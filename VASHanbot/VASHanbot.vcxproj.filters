@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{805E8097-576D-42E2-966C-D35FA1F44CED}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{565354D9-F821-431B-AC1F-29420B5BBBF2}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{E5C8A238-6724-4F37-A0DF-89E07A8123AE}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="BotSDK">
+      <UniqueIdentifier>{74CD2C98-8023-43B8-AE33-ADD5C1BEA1BB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameData">
+      <UniqueIdentifier>{F0F9580F-76B4-488C-B7CA-D474903D8F5A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ace">
+      <UniqueIdentifier>{C8AFCF79-CB83-485A-8D4C-6233C2DA88B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{99D2920F-C9DF-404E-AF7F-E770BD180CFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{931DBE0D-E980-4116-89A8-6DC5136E03EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\MinHook">
+      <UniqueIdentifier>{A643BDEE-EE2A-4E00-A168-FFB4CC873772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\DarkLoadLibrary">
+      <UniqueIdentifier>{A5B9CDE4-C98A-4A81-AB32-0A3FF4FBD4E8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\MinHook\src">
+      <UniqueIdentifier>{5A66F3BE-DA7B-4D33-AAD4-CDD0FF6D6531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\MinHook\src\hde">
+      <UniqueIdentifier>{E866E9A5-628B-4997-B993-63D95B1227CF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\detours">
+      <UniqueIdentifier>{5E995419-F3D8-4E2D-A81C-2AB7B3908E92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\nlohmann">
+      <UniqueIdentifier>{94A08AFB-FAE5-41EC-92E1-DDF5EA7AD5F4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EveentHooks">
+      <UniqueIdentifier>{9438693E-3056-4E5A-829B-96B07C96AF65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{FF4716E7-9C76-48AC-A1C4-36CFE24FA78B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DllMain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BotSDK.cpp">
+      <Filter>BotSDK</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLoadLibrary\darkloadlibrary.cpp">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLoadLibrary\ldrutils.cpp">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLoadLibrary\main.cpp">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLoadLibrary\pebutils.cpp">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="DarkLoadLibrary\syscalls.cpp">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Ace\Ace_Patch.cpp">
+      <Filter>Ace</Filter>
+    </ClCompile>
+    <ClCompile Include="Ace\AceHook.cpp">
+      <Filter>Ace</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\inline.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\MemoryLoadDll.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\minhook\src\buffer.c">
+      <Filter>libs\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\minhook\src\hook.c">
+      <Filter>libs\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\minhook\src\trampoline.c">
+      <Filter>libs\MinHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\minhook\src\hde\hde32.c">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\minhook\src\hde\hde64.c">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClCompile>
+    <ClCompile Include="EveentHooks.cpp">
+      <Filter>EveentHooks</Filter>
+    </ClCompile>
+    <ClCompile Include="permit\permit.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="permit\softxlic\include\miniGmp.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+    <ClCompile Include="permit\softxlic\include\softxlic.cpp">
+      <Filter>Auth</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BotSDK.h">
+      <Filter>BotSDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLoadLibrary\darkloadlibrary.h">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLoadLibrary\ldrutils.h">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLoadLibrary\pebstructs.h">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLoadLibrary\pebutils.h">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="DarkLoadLibrary\syscalls.h">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData\Offsets.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData\OffsetsChina.h">
+      <Filter>GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Ace\Ace_Patch.h">
+      <Filter>Ace</Filter>
+    </ClInclude>
+    <ClInclude Include="Ace\AceHook.h">
+      <Filter>Ace</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\fp_call.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\inline.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\MemoryLoadDll.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ntdll.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\syscall.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\lazy_importer.hpp">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\syscall.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\MinHook.h">
+      <Filter>libs\MinHook</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\buffer.h">
+      <Filter>libs\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\trampoline.h">
+      <Filter>libs\MinHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\hde\hde32.h">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\hde\hde64.h">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\hde\pstdint.h">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\hde\table32.h">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\minhook\src\hde\table64.h">
+      <Filter>libs\MinHook\src\hde</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\detours\detours.h">
+      <Filter>libs\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\detours\detver.h">
+      <Filter>libs\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\nlohmann\json.hpp">
+      <Filter>libs\nlohmann</Filter>
+    </ClInclude>
+    <ClInclude Include="EveentHooks.h">
+      <Filter>EveentHooks</Filter>
+    </ClInclude>
+    <ClInclude Include="permit\permit.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="permit\VMProtectSDK.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="permit\softxlic\include\miniGmp.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+    <ClInclude Include="permit\softxlic\include\softxlic.h">
+      <Filter>Auth</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Ace\Bypass.asm">
+      <Filter>Ace</Filter>
+    </MASM>
+    <MASM Include="BotShellCode.asm">
+      <Filter>BotSDK</Filter>
+    </MASM>
+    <MASM Include="permit\asm.asm">
+      <Filter>Auth</Filter>
+    </MASM>
+    <MASM Include="DarkLoadLibrary\syscallsstubs.asm">
+      <Filter>libs\DarkLoadLibrary</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
